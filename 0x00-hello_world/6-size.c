@@ -7,17 +7,11 @@
  */
 int main(void)
 {
-	char Achar;
-	int Bint;
-	long int Cint;
-	long long int Dint;
-	float Efloat;
-
-	printf("Size of a char: %zu byte\n", (unsigned long)sizeof(Achar));
-	printf("Size of an int: %zu bytes\n", (unsigned long)sizeof(Bint));
-	printf("Size of a long int: %zu bytes\n", (unsigned long)sizeof(Cint));
-	printf("Size of a long long int: %zu bytes\n", (unsigned long)sizeof(Dint));
-	printf("Size of a float: %zu bytes\n", (unsigned long)sizeof(Efloat));
+	printf("Size of a char: %d byte(s)\n", sizeof(char));
+	printf("Size of an int: %d byte(s)\n", sizeof(int));
+	printf("Size of a long int: %d byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %d byte(s)\n", sizeof(float));
 
 	return (0);
 }
