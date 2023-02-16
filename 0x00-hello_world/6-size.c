@@ -13,11 +13,11 @@ int main(void)
 	long long int Dint;
 	float Efloat;
 
-	printf("Size of char: %zu byte\n", sizeof(Achar));
-	printf("Size of int: %zu bytes\n", sizeof(Bint));
-	printf("Size of long int: %zu bytes\n", sizeof(Cint));
-	printf("Size of long long int: %zu bytes\n", sizeof(Dint));
-	printf("Size of float: %zu bytes\n", sizeof(Efloat));
+	printf("Size a of char: %zu byte\n", sizeof(Achar));
+	printf("Size an of int: %zu bytes\n", sizeof(Bint));
+	printf("Size a of long int: %zu bytes\n", sizeof(Cint));
+	printf("Size a of long long int: %zu bytes\n", sizeof(Dint));
+	printf("Size a of float: %zu bytes\n", sizeof(Efloat));
 
 	return (0);
 }
