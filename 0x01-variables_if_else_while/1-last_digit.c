@@ -1,10 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
 /**
- * main - main block
+ * main - main bodamiru
  * Description: This program will assign a random number
  * to the variable n each time it is executed.
  * Return: Always 0 (Sucess)
