@@ -4,9 +4,9 @@
 /* more headers goes there */
 
 /**
- * main - Entry point
- *
- *
+ * main - main block
+ * Description: This program will assign a random number
+ * to the variable n each time it is executed.
  * Return: Always 0 (Sucess)
  */
 int main(void)
