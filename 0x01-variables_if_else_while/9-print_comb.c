@@ -13,8 +13,10 @@ int main(void)
 	for (i = 0; i < 10; i++)
 	{
 		printf("%i, ", i);
-		if ( i = 9)
+		if (i = 9)
+		{
 			printf("%i");
+		}
 	}
 
 	printf("\n");
