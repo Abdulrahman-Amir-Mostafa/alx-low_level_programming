@@ -8,32 +8,32 @@
 
 int main(void)
 {
-	int 3addy;
-	int yastta;
-	int da;
-	int CODE;
+	int one;
+	int two;
+	int onnen;
+	int twoeen;
 
-for ( 3addy = 0 ; 3addy < 10 ; 3addy++)
-{
+for ( one = 0 ; one < 10 ; one++)
+{	
 
-	for (yastta = 0 ; yassta <= 10 ; yassta++)
+	for (two = 0 ; two <= 10 ; two++)
 	{
-
-		for (da = 0 ; da < 10 ; da++)
+	
+		for (onnen = 0 ; onnen < 10 ; onnen++)
 		{
-			for ( CODE = 0 ; CODE < 10 ; CODE++)
+			for ( twoeen = 0 ; twoeen < 10 ; twoeen++)
 			{
-				putchar('0' + 3addy);
-				putchar('0' + yastta);
+				putchar('0' + one);
+				putchar('0' + two);
 				putchar(32);
-				putchar('0' + da);
-				putchar('0' + CODE);
-				if (!(3addy == 9 && yastta == 8))
+				putchar('0' + onnen);
+				putchar('0' + twoeen);
+				if (!(one == 9 && two == 8))
 				{
 					putchar(',');
 					putchar(32);
 				}
-				CODE++;
+				twoeen++;
 			}
 		}
 	}
@@ -41,3 +41,5 @@ for ( 3addy = 0 ; 3addy < 10 ; 3addy++)
 	putchar('\n');
 	return (0);
 }
+
+
